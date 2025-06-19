@@ -104,7 +104,7 @@ const LayoutBody = () => {
                     <div key={item.id} className="w-full">
                         <Title
                             marginBottom
-                            lineColor="before:bg-blueColor"
+                            lineColor="blue"
                         >{item.title}</Title>
                         <div className="relative w-full h-[150px] overflow-hidden group">
                             <div
@@ -162,7 +162,7 @@ const LayoutBody = () => {
             <div className="w-full">
                 <Title
                     marginBottom
-                    lineColor="before:bg-blueGreen"
+                    lineColor="blueGreen"
                 >LATEST VIDEOS</Title>
                 <div className="grid gridCols_3 gap-4">
                     {latestVideos.map((item) => (

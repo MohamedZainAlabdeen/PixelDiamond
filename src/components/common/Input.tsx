@@ -29,7 +29,7 @@ const Input = ({
             <input
                 type={type}
                 name={inputName}
-                defaultValue={value | un}
+                defaultValue={value}
                 id={id}
                 className={`${inputWidth ? inputWidth : "w-full"} h-[50px] text-lightColor border border-borderColor pl-3 rounded-md transition placeholder:text-sm focus:border-blueColor`}
                 placeholder={placeholder}

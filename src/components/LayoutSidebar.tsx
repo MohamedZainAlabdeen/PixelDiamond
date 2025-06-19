@@ -97,21 +97,21 @@ const LayoutSidebar = () => {
                 </button>
             </div>
             {/* List Social */}
-            <Title margin lineColor="before:bg-blueColor">Social Pixel</Title>
+            <Title margin lineColor="blue">Social Pixel</Title>
             <Socials size="lg" />
             {/* POPULAR Posts */}
-            <Title margin lineColor="before:bg-blueColor">POPULAR POSTS</Title>
+            <Title margin lineColor="blue">POPULAR POSTS</Title>
             <PostPreviewShowcase posts={popularPosts} color="blue" />
             {/* Latest Reviews */}
-            <Title margin lineColor="before:bg-redColor">LATEST REVIEWS</Title>
+            <Title margin lineColor="red">LATEST REVIEWS</Title>
             <PostPreviewShowcase posts={latestReviews} color="red" />
             {/* Streamer */}
-            <Title margin lineColor="before:bg-violetColor">TWITCH STREAMS</Title>
+            <Title margin lineColor="purple">TWITCH STREAMS</Title>
             <div className="space-y-2">{renderStreamer}</div>
             {/* Comments */}
-            <Title margin lineColor="before:bg-blueColor">LATEST COMMENTS</Title>
+            <Title margin lineColor="blue">LATEST COMMENTS</Title>
             <div className="space-y-4">{renderComments}</div>
-            <Title margin lineColor="before:bg-redColor">PIXELATED POLL</Title>
+            <Title margin lineColor="red">PIXELATED POLL</Title>
             <p className="text-grayColor text-sm mb-3">
                 WHAT ACTOR DO YOU LIKE TO PLAY "JAMES" IN THE UPCOMING FIRESTORM MOVIE?
             </p>
@@ -185,17 +185,17 @@ const LayoutSidebar = () => {
                 </div>
             </form>
             {/* Post Video */}
-            <Title margin lineColor="before:bg-blueGreen">FEATURED VIDEO</Title>
+            <Title margin lineColor="blue">FEATURED VIDEO</Title>
             <PostVideo
                 banner={cover_03}
                 title="'THE SANDBENDERS II' BREAK THE BAD SEQUEL SPELL WITH A..."
                 text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod."
             />
             {/* Tags List */}
-            <Title margin lineColor="before:bg-blueColor">PIXEL TAGS</Title>
+            <Title margin lineColor="blue">PIXEL TAGS</Title>
             <TagsList />
             {/* Instagram */}
-            <Title margin lineColor="before:bg-redColor">INSTAGRAM WIDGET</Title>
+            <Title margin lineColor="red">INSTAGRAM WIDGET</Title>
             <div className="photo-list grid grid-cols-3 gap-1">
                 <PhotoList />
             </div>

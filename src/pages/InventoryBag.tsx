@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useMetaTitle } from "../hooks";
 import { Banner, BubbleIcon, Button } from "../components";
-import { banner_05, product_01, product_07 } from "../assets";
+import { banner_05, product_07 } from "../assets";
 import { inventoryBag } from "../constants";
 import { FaMinus, FaPlus, FaStar } from "react-icons/fa";
 import { RiCloseFill, RiShoppingCartLine } from "react-icons/ri";
