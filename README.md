@@ -1,5 +1,7 @@
 # PixelDiamond
 
+![Pixel Diamond](https://cdn.jsdelivr.net/gh/MohamedZainAlabdeen/cdn-assets@latest/imgs/pixel-diamond-banner.png)
+
 PixelDiamond is a modern web application built with React, TypeScript, and Tailwind CSS, using Vite for rapid development and optimized builds. Its modular architecture supports scalability and maintainability for interactive, feature-rich user experiences.
 
 ## Features
